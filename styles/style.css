@@ -1,0 +1,81 @@
+.container {
+    color: white;
+}
+.greeting {
+    color: rgb(246, 246, 27);
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+.unique-text {
+    color: white;
+}
+.intro {
+color:rgb(246, 246, 27);
+font-weight: 700;
+font-size: 80px;
+text-wrap: wrap;
+
+}
+.description {
+    font-size: 25px;
+}
+.buttons { 
+    display: flex;
+    flex-direction: row;
+}
+.hire-me {
+    color: black;
+    background-color: rgb(246, 246, 27);
+    padding-top: 14px;
+    padding-left: 26px;
+    padding-bottom: 14px;
+    padding-right: 26px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.15s;
+}
+
+.my-works {
+    color: white;
+    background-color: black;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(176, 163, 163);
+    transition: 0.20s;
+}
+.hire-me:hover {
+    background-color: rgb(232, 232, 22);
+    cursor: pointer;
+}
+.my-works:hover {
+    background-color: rgb(27, 26, 26);
+    color: rgb(215, 214, 214);
+    cursor: pointer;
+}
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img {
+    z-index: 0;
+}
+.picture {
+    position: absolute;
+    top: 30px;
+    right: 20%;
+    border-radius: 80px;
+}
