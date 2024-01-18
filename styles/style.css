@@ -50,6 +50,7 @@ text-wrap: wrap;
     border-radius: 20px;
     border-color: rgb(176, 163, 163);
     transition: 0.20s;
+    margin-left: 10px;
 }
 .hire-me:hover {
     background-color: rgb(232, 232, 22);

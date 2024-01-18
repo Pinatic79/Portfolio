@@ -21,18 +21,19 @@
     line-height: 29px;
     font-weight: 500;
     letter-spacing: 2px;
+    margin-left: 2em;
 
 }
 
 .right-section {
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
     font-size: 16px;
 }
 .header-link {
-    
+    margin-right: 10%;
     text-wrap: nowrap;
+    
 }
 .header-link:hover {
     color: rgb(255, 255, 32);
